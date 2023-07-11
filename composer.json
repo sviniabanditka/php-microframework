@@ -1,0 +1,24 @@
+{
+    "name": "sviniabanditka/framework",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Konstantin Sivenkov",
+            "email": "sviniabanditka@gmail.com"
+        }
+    ],
+    "require": {
+        "robmorgan/phinx": "^0.13.4",
+        "vlucas/phpdotenv": "^5.5",
+        "pecee/simple-router": "5.3.0.5",
+        "webrium/foxdb": "^2.0",
+        "eftec/bladeone": "^4.9",
+        "rakit/validation": "^1.4"
+    }
+}
